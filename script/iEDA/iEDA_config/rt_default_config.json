@@ -1,0 +1,5 @@
+{
+    "RT": {
+        "-rt_temp_directory_path": "$RESULT_PATH/rt/rt_temp_directory"
+    }
+}

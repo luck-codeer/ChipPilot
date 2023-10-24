@@ -1,0 +1,60 @@
+*** Aborted at 1697640191 (unix time) try "date -d @1697640191" if you are using GNU date ***
+PC: @     0x7fe5f00c800b gsignal
+*** SIGABRT (@0x4437) received by PID 17463 (TID 0x7fe5f0051940) from PID 17463; stack trace: ***
+    @     0x55e45cf50921 google::(anonymous namespace)::FailureSignalHandler()
+    @     0x7fe5f16fa420 (unknown)
+    @     0x7fe5f00c800b gsignal
+    @     0x7fe5f00a7859 abort
+    @     0x7fe5f0481911 (unknown)
+    @     0x7fe5f048d38c (unknown)
+    @     0x7fe5f048d3f7 std::terminate()
+    @     0x7fe5f048d6a9 __cxa_throw
+    @     0x55e45c4ee35a nlohmann::detail::json_sax_dom_callback_parser<>::parse_error<>()
+    @     0x55e45c622a66 nlohmann::detail::parser<>::sax_parse_internal<>()
+    @     0x55e45c622f05 nlohmann::detail::parser<>::parse()
+    @     0x55e45d0cd953 ipl::Config::initConfig()
+    @     0x55e45c691d1f ipl::PlacerDB::updatePlacerConfig()
+    @     0x55e45c69455f ipl::PlacerDB::initPlacerDB()
+    @     0x55e45c5f5efe ipl::PLAPI::initAPI()
+    @     0x55e45c5e7690 iplf::PlacerIO::initPlacer()
+    @     0x55e45c5dd8da iplf::ToolManager::autoRunPlacer()
+    @     0x55e45c6564a1 tcl::CmdPlacerAutoRun::exec()
+    @     0x55e45ce02901 ieda::CmdProc()
+    @     0x7fe5f14ff202 TclNRRunCallbacks
+    @     0x7fe5f150110b TclEvalEx
+    @     0x7fe5f15b9e79 Tcl_FSEvalFileEx
+    @     0x7fe5f15c1aee Tcl_MainEx
+    @     0x55e45ce06853 ieda::UserShell::userMain()
+    @     0x55e45c5935f2 main
+    @     0x7fe5f00a9083 __libc_start_main
+    @     0x55e45c5d3c0e _start
+*** Aborted at 1697676797 (unix time) try "date -d @1697676797" if you are using GNU date ***
+PC: @     0x7f438fe6400b gsignal
+*** SIGABRT (@0x3fd8cf) received by PID 4184271 (TID 0x7f438fded940) from PID 4184271; stack trace: ***
+    @     0x5632cc079921 google::(anonymous namespace)::FailureSignalHandler()
+    @     0x7f4391496420 (unknown)
+    @     0x7f438fe6400b gsignal
+    @     0x7f438fe43859 abort
+    @     0x7f439021d911 (unknown)
+    @     0x7f439022938c (unknown)
+    @     0x7f43902293f7 std::terminate()
+    @     0x7f43902296a9 __cxa_throw
+    @     0x5632cb61735a nlohmann::detail::json_sax_dom_callback_parser<>::parse_error<>()
+    @     0x5632cb74ba66 nlohmann::detail::parser<>::sax_parse_internal<>()
+    @     0x5632cb74bf05 nlohmann::detail::parser<>::parse()
+    @     0x5632cc1f6953 ipl::Config::initConfig()
+    @     0x5632cb7bad1f ipl::PlacerDB::updatePlacerConfig()
+    @     0x5632cb7bd55f ipl::PlacerDB::initPlacerDB()
+    @     0x5632cb71eefe ipl::PLAPI::initAPI()
+    @     0x5632cb710690 iplf::PlacerIO::initPlacer()
+    @     0x5632cb7068da iplf::ToolManager::autoRunPlacer()
+    @     0x5632cb77f4a1 tcl::CmdPlacerAutoRun::exec()
+    @     0x5632cbf2b901 ieda::CmdProc()
+    @     0x7f439129b202 TclNRRunCallbacks
+    @     0x7f439129d10b TclEvalEx
+    @     0x7f4391355e79 Tcl_FSEvalFileEx
+    @     0x7f439135daee Tcl_MainEx
+    @     0x5632cbf2f853 ieda::UserShell::userMain()
+    @     0x5632cb6bc5f2 main
+    @     0x7f438fe45083 __libc_start_main
+    @     0x5632cb6fcc0e _start
