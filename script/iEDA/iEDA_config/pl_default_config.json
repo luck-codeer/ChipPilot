@@ -1,44 +1,44 @@
 {
     "PL": {
         "is_max_length_opt": 0,
-        "max_length_constraint": 741786,
+        "max_length_constraint": 620126,
         "is_timing_aware_mode": 1,
-        "ignore_net_degree": 41,
-        "num_threads": 17,
+        "ignore_net_degree": 470,
+        "num_threads": 41,
         "GP": {
             "Wirelength": {
-                "init_wirelength_coef": 0.020560983179196857,
+                "init_wirelength_coef": 0.946337319970378,
                 "reference_hpwl": 832547,
-                "min_wirelength_force_bar": 303
+                "min_wirelength_force_bar": 435
             },
             "Density": {
-                "target_density": 0.9227866939391122,
-                "bin_cnt_x": 128,
-                "bin_cnt_y": 16
+                "target_density": 0.42887880853565374,
+                "bin_cnt_x": 1024,
+                "bin_cnt_y": 128
             },
             "Nesterov": {
-                "max_iter": 614,
-                "max_backtrack": 17,
-                "init_density_penalty": 0.5201589174597345,
+                "max_iter": 328,
+                "max_backtrack": 51,
+                "init_density_penalty": 0.442647731456964,
                 "target_overflow": 0.19581666706746548,
-                "initial_prev_coordi_update_coef": 7698,
+                "initial_prev_coordi_update_coef": 7870,
                 "min_precondition": 12,
-                "min_phi_coef": 0.272785403301928,
-                "max_phi_coef": 0.4801009451258488
+                "min_phi_coef": 0.07422748049289762,
+                "max_phi_coef": 0.33516005594699294
             }
         },
         "BUFFER": {
-            "max_buffer_num": 527003,
+            "max_buffer_num": 515902,
             "buffer_type": [
                 "sky130_fd_sc_hs__buf_1"
             ]
         },
         "LG": {
-            "max_displacement": 812234,
+            "max_displacement": 254321,
             "global_right_padding": 10
         },
         "DP": {
-            "max_displacement": 812234,
+            "max_displacement": 254321,
             "global_right_padding": 10
         },
         "Filler": {
@@ -65,15 +65,15 @@
             "solution_type": "BStarTree",
             "SimulateAnneal": {
                 "perturb_per_step": 22,
-                "cool_rate": 0.7140789733517255
+                "cool_rate": 0.01418098885893282
             },
             "Partition": {
-                "parts": 66,
-                "ufactor": 842,
+                "parts": 58,
+                "ufactor": 362,
                 "new_macro_density": 0.395352544672416
             },
             "halo_x": 855645,
-            "halo_y": 832562,
+            "halo_y": 855201,
             "output_path": "$RESULT_PATH/pl/"
         }
     }

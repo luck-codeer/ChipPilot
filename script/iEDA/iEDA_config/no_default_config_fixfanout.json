@@ -9,5 +9,5 @@
         "report_file": "$RESULT_PATH/no/report.txt"
     },
     "insert_buffer": "sky130_fd_sc_hs__buf_8",
-    "max_fanout": 39
+    "max_fanout": 24
 }
